@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2561843935338905845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711243412085641850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5652503ef63819141a42470d1bae70b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mixer: {fileID: 0}
+  ExposedParamName: Put Your Exposed Parameter Name Here
+  MinValue: -80
+  MaxValue: 0
+--- !u!1001 &2492974676059687319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 520331537538784237, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_Name
+      value: VolumeSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784239, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784239, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784239, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784239, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4774415974420483740, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784232, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: TaperCurve.m_Curve.Array.data[0].inSlope
+      value: 3.2691824
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784232, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: TaperCurve.m_Curve.Array.data[0].outSlope
+      value: 3.2691824
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784232, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: TaperCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784232, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: TaperCurve.m_Curve.Array.data[0].outWeight
+      value: 0.03318584
+      objectReference: {fileID: 0}
+    - target: {fileID: 520331537538784232, guid: ab87920b4ee7f7849a687b3e742878c5,
+        type: 3}
+      propertyPath: AmountMoved
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab87920b4ee7f7849a687b3e742878c5, type: 3}
+--- !u!1 &2711243412085641850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 520331537538784237, guid: ab87920b4ee7f7849a687b3e742878c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2492974676059687319}
+  m_PrefabAsset: {fileID: 0}
